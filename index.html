@@ -25,14 +25,17 @@
     <header class="container">
       <nav>
         <a href="#"><img src="images/logo.svg" alt="company" /></a>
-        <ul>
-          <a href="#">Pricing</a
-          ><a href="#">Product</a
-          ><a href="#">About Us</a
-          ><a href="#">Careers</a
-          ><a href="#">Community</a>
+        <ul id="header-nav">
+          <a class="nav-link" href="#">Pricing</a
+          ><a class="nav-link" href="#">Product</a
+          ><a class="nav-link" href="#">About Us</a
+          ><a class="nav-link" href="#">Careers</a
+          ><a class="nav-link" href="#">Community</a>
         </ul>
-        <button>Get Started</button>
+        <button id="hamb-btn" class="hamb-btn">
+          <img id="hamb-icon" src="images/icon-hamburger.svg" alt="" />
+        </button>
+        <button class="nav-btn">Get Started</button>
       </nav>
       <div class="presentation">
         <div>
@@ -48,7 +51,7 @@
     </header>
     <main>
       <div class="container">
-        <div class="content">
+        <article class="content">
           <div>
             <h2>What’s different about Manage?</h2>
             <p class="ph2">
@@ -93,27 +96,95 @@
               </div>
             </section>
           </div>
+        </article>
+      </div>
+      <article class="opinions">
+        <h3>What they've said</h3>
+        <div>
+          <section class="opinion">
+            <div class="profile-pic">
+              <img src="images/avatar-anisha.png" alt="" />
+            </div>
+            <h4>Anisha Li</h4>
+            <p>
+              “Manage has supercharged our team’s workflow. The ability to
+              maintain visibility on larger milestones at all times keeps
+              everyone motivated.”
+            </p>
+          </section>
+          <section class="opinion">
+            <div class="profile-pic">
+              <img src="images/avatar-ali.png" alt="" />
+            </div>
+            <h4>Ali Bravo</h4>
+            <p>
+              “We have been able to cancel so many other subscriptions since
+              using Manage. There is no more cross-channel confusion and
+              everyone is much more focused.”
+            </p>
+          </section>
+          <section class="opinion">
+            <div class="profile-pic">
+              <img src="images/avatar-richard.png" alt="" />
+            </div>
+            <h4>Richard Watts</h4>
+            <p>
+              “Manage allows us to provide structure and process. It keeps us
+              organized and focused. I can’t stop recommending them to everyone
+              I talk to!”
+            </p>
+          </section>
+          <section class="opinion">
+            <div class="profile-pic">
+              <img src="images/avatar-shanai.png" alt="" />
+            </div>
+            <h4>Shanai Gough</h4>
+            <p>
+              “Their software allows us to track, manage and collaborate on our
+              projects from anywhere. It keeps the whole team in-sync without
+              being intrusive.”
+            </p>
+          </section>
+        </div>
+        <button>Get Started</button>
+      </article>
+      <div class="banner">
+        <div class="container">
+          <span>Simplify how your team works today.</span>
+          <button class="banner-btn">Get started</button>
         </div>
       </div>
     </main>
-    What they’ve said Anisha Li “Manage has supercharged our team’s workflow.
-    The ability to maintain visibility on larger milestones at all times keeps
-    everyone motivated.” Ali Bravo “We have been able to cancel so many other
-    subscriptions since using Manage. There is no more cross-channel confusion
-    and everyone is much more focused.” Richard Watts “Manage allows us to
-    provide structure and process. It keeps us organized and focused. I can’t
-    stop recommending them to everyone I talk to!” Shanai Gough “Their software
-    allows us to track, manage and collaborate on our projects from anywhere. It
-    keeps the whole team in-sync without being intrusive.” Get Started Simplify
-    how your team works today. Get Started Home Pricing Products About Us
-    Careers Community Privacy Policy Updates in your inbox… Go Copyright 2020.
-    All Rights Reserved
-
-    <div class="attribution">
-      Challenge by
-      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-        >Frontend Mentor</a
-      >. Coded by <a href="#">Your Name Here</a>.
-    </div>
+    <footer>
+      <div class="container">
+        <div class="logos">
+          <a href="#"><img src="images/logo.svg" alt="company" /></a>
+          <div class="social">
+            <a href="#"><img src="images/icon-facebook.svg" alt="" /></a>
+            <a href="#"><img src="images/icon-youtube.svg" alt="" /></a>
+            <a href="#"><img src="images/icon-twitter.svg" alt="" /></a>
+            <a href="#"><img src="images/icon-pinterest.svg" alt="" /></a>
+            <a href="#"><img src="images/icon-instagram.svg" alt="" /></a>
+          </div>
+        </div>
+        <ul class="links">
+          <a href="">Home</a>
+          <a href="">Pricing</a>
+          <a href="">Products</a>
+          <a href="">About Us</a>
+          <a href="">Careers</a>
+          <a href="">Community</a>
+          <a href="">Privacy Policy</a>
+        </ul>
+        <div class="newsletter">
+          <form action="post">
+            <input type="email" placeholder="Updates in your inbox..." />
+            <button>Go</button>
+          </form>
+          <span>Copyright 2020. All Rights Reserved</span>
+        </div>
+      </div>
+    </footer>
+    <script src="index.js"></script>
   </body>
 </html>
