@@ -262,11 +262,16 @@ footer > .container {
   text-align: end;
 }
 
+.hamb-btn {
+  display: none;
+}
+
 @media screen and (max-width: 480px) {
   nav {
     margin: 2rem auto;
   }
   .hamb-btn {
+    display: block;
     background: none;
     box-shadow: none;
     padding: 0;
